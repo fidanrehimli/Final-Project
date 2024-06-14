@@ -1,0 +1,113 @@
+.active {
+    color: black;
+    background-color: #FFE500;
+    padding: 7px;
+}
+.Top{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 5136865;
+}
+.SearchBox input.SearchInp:focus,
+.SearchBox input.SearchInp:hover {
+    outline: none;
+    border: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 19px 55px;
+    .nav-btn{
+        padding: 5px;
+        cursor: pointer;
+        border: none;
+        background: transparent;
+        font-size: 20px;
+        color: white;
+        outline: none;
+       display: none;
+    }
+    a{
+        color: black;
+    }
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.SearchIconBox{
+    display: flex;
+    align-items: center;
+    button{
+        border: 1px solid transparent;
+        background-color: transparent;
+        font-size: 21px;
+    }
+}
+.SearchBox{
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    gap: 11px;
+    padding: 28px 60px;
+}
+.SearchInp{
+    height: 50px;
+    width: 350px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+.head-top-black{
+    background-color: #262626;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 25px;
+}
+.BuyBiletBtn{
+    background-color: #82B440;
+    border:1px solid #82B440;
+    padding: 8px 19px;
+    border-radius: 5px;
+    color: white;
+}
+.BuyBiletBtn:hover{
+    background-color: #749f3d;
+}
+@media screen and (max-width:500px){
+    header .nav-btn{
+      display: block;
+    }
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+      justify-content: center;
+      background-color: rgb(12, 186, 217);
+      transition: 1s;
+      transform: translateY(-100vh);
+    }
+    header ul{
+        flex-direction: column; 
+    }
+    header .responsive_nav{
+        transform: none;
+    }
+    nav .nav-close-btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+}
