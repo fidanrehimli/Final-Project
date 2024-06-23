@@ -51,9 +51,9 @@
   margin-top: 20px;
 }
 .read-more {
-  text-decoration: none; /* Alt çizgi olmadan */
-  position: relative; /* Göreli konumlandırma */
-  color: #333; /* Metin rengi */
+  text-decoration: none; 
+  position: relative; 
+  color: #333; 
   display: flex;
   justify-content: center;
   margin-top: 20px;

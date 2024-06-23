@@ -10,7 +10,7 @@
 
 .Top {
   background-color: white;
-  position: -webkit-sticky;
+  /* position: -webkit-sticky; */
   position: sticky;
   top: 0;
   right: 0;
@@ -49,6 +49,8 @@ header {
   }
   a {
     color: rgb(237, 237, 237);
+  text-decoration: none;
+
   }
 }
 ul {

@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import "./section4.css";
 import { FaStar } from "react-icons/fa";
+import { ProductContext } from "../../../contexts/productContext";
+import axios from "axios";
 
 
 
 const Section4 = () => {
+    const {product,setProduct} = useContext(ProductContext)
 
+    const GetData = async()=>{
+        const res = await axios.get("http://localhost:8080/products");
+        setProduct(res?.data)
+    }
+useEffect(()=>{
+    GetData()
+},[])
   return (
     <div className="section4">
       <div>
@@ -48,8 +58,17 @@ const Section4 = () => {
         <FaStar />
         <FaStar />
         </div>
-     <div>
-        
+     <div className="sec4card">
+     {product.slice(0, 3).map((item) => (
+              <div key={item._id}>
+                <div className="menucart">
+                    <img className="sec4images" src={item.image} alt="" />
+                  <h1 className="sec4title">{item.title}</h1>
+                  <p className="sec4price">${item.price}</p>
+                </div>
+              </div>
+            ))}
+
      </div>
       </div>
     </div>

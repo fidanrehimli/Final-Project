@@ -6,7 +6,7 @@
   margin-top: 100px;
 }
 .sec4text {
-    color: #333333;
+  color: #333333;
   font-weight: 600;
   font-size: 35px;
   font-family: "Raleway", sans-serif;
@@ -21,10 +21,87 @@
   font-size: 15px;
   font-family: "Raleway", sans-serif;
 }
-.staricon{
-    margin-top: 30px;
-    color: rgb(255,204,104);
+.staricon {
+  margin-top: 30px;
+  color: rgb(255, 204, 104);
+}
+.sec4card {
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
 }
 
+.sec4images {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.sec4images:hover {
+  opacity: 0.6;
+}
+.sec4title {
+  margin-top: 20px;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+}
+.sec4title:hover {
+  color: rgb(255, 204, 104);
+}
+.sec4price {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+}
 
-  
+@media (max-width: 768px) {
+  .section4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec4text {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .sec4param {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .staricon {
+    margin-top: 20px;
+  }
+
+  .sec4card {
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .sec4images {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .sec4title {
+    font-size: 15px;
+  }
+
+  .sec4price {
+    font-size: 15px;
+  }
+  .menucart{
+    flex-direction: column;
+  }
+}
+
