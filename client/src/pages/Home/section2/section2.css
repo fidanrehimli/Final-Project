@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+.banner {
+  text-align: center;
+  padding: 80px 0;
+
+  h1 {
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Satisfy", cursive;
+    color: rgb(205, 170, 124);
+  }
+}
+.images {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.image {
+  width: 400px;
+  height: 250px;
+  background-size: cover;
+  object-fit: cover;
+  transition: transform 0.3s ease; 
+}
+.image:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.level {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: rgb(51, 51, 88);
+  margin-top: 20px;
+}
+.text {
+  text-align: center;
+  color: rgb(134, 118, 143);
+  margin-top: 20px;
+}
+.read-more {
+  text-decoration: none; /* Alt çizgi olmadan */
+  position: relative; /* Göreli konumlandırma */
+  color: #333; /* Metin rengi */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.read-more:hover{
+  color: rgb(205, 170, 124);
+}
+
+@media (max-width: 768px) {
+  .banner {
+    h1 {
+      font-size: 28px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+    /* width: 100%; */
+    margin-bottom: 20px;
+  }
+
+  .level {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .read-more {
+    margin-top: 10px;
+  }
+}

@@ -1,12 +1,42 @@
-.AdminImg{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
+.AdminImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
 }
-.AdminUsers{
-   width: 100%;
-text-align: center;
-margin: auto;
-   justify-content: center;
+.AdminUsers {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
 }
+.deleteuser {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+}
+.updateuser {
+  background-color: green;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+}
+.inpuser{
+   border-radius: 20px;
+   text-align: center;
+}
+.submituser{
+   background: #0066A2;
+   border: none;
+   color: white;
+   width: 100px;
+   height: 30px;
+   border-radius: 20px;
+   margin: 20px 0px 20px 0px;
+}
+

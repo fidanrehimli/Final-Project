@@ -1,3 +1,8 @@
 .Santorini{
     width: 50%;
 }
+.imageproduct{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

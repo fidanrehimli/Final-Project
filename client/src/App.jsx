@@ -5,9 +5,9 @@ import Login from './auth/Login'
 import Register from './auth/Register'
 import Header from './layout/Header'
 import About from './pages/About'
-import Destinations from './pages/Destinations'
 import Shop from './pages/Shop'
-import Elements from './pages/Elements'
+import MENU from './pages/Menu'
+import Blog from './pages/Blog'
 
 
 function App() {
@@ -22,9 +22,9 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
         <Route path='/about' element={<About />} />
-        <Route path='/destinations' element={<Destinations />} />
+        <Route path='/menu' element={<MENU />} />
         <Route path='/shop' element={<Shop />} />
-        <Route path='/elements' element={<Elements />} />
+        <Route path='/blog' element={<Blog />} />
       </Routes>
     </>
   )

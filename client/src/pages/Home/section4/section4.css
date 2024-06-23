@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.section4 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.sec4text {
+    color: #333333;
+  font-weight: 600;
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+}
+.sec4text:hover {
+  color: rgb(205, 170, 124);
+}
+.sec4param {
+  margin-top: 30px;
+  color: #666666;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+.staricon{
+    margin-top: 30px;
+    color: rgb(255,204,104);
+}
+
+
+  

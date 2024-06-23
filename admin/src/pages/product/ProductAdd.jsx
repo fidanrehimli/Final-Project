@@ -53,6 +53,30 @@ const ProductAdd = () => {
       })
     GetData();
     }
+//! artirma
+    const handleIncrease = (id) => {
+      const updatedProducts = products.map((prod) => {
+        if (prod._id === id) {
+          return { ...prod, quantity: (prod.quantity || 0) + 1 };
+        }
+        return prod;
+      });
+      setProducts(updatedProducts);
+    };
+//!azaltma
+    const handleDecrease = (id) => {
+      const updatedProducts = products.map((prod) => {
+        if (prod._id === id && prod.quantity > 0) {
+          return { ...prod, quantity: prod.quantity - 1 };
+        }
+        return prod;
+      });
+      setProducts(updatedProducts);
+    };
+    const getQuantity = (id) => {
+      const product = products.find((prod) => prod._id === id);
+      return product ? product.quantity || 0 : 0;
+    };
    
   return (
     <div>
@@ -83,7 +107,15 @@ const ProductAdd = () => {
          <div className="card-content">
          <h3>{elem.title}</h3>
           <p>{elem.catagory}</p>
-          <p className='Price'>{elem.price}</p>
+          <p className='Price'>${elem.price}</p>
+          
+            {/* Artırma ve Azaltma Butonları */}
+        <div className='QuantityControls'>
+          <button className='QuantityBtn' onClick={() => handleDecrease(elem._id)}> - </button>
+          <span className='Quantity'>{getQuantity(elem._id)}</span>
+          <button className='QuantityBtn' onClick={() => handleIncrease(elem._id)}> + </button>
+        </div>
+
            <div className='DetailSection'>
             <button className='Update'
             onClick={()=>UpdateData(elem.image,elem.title,elem.catagory,elem.price,elem._id)}

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.section3 {
+  background: url("https://freebw.com/templates/royate/images/modal-search-bg.jpg");
+  width: 100%;
+  height: 100vh;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.MENU {
+  margin-top: 50px;
+  text-align: center;
+  z-index: 1;
+}
+.menutext {
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+}
+.menuparag {
+  font-weight: 400;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Satisfy", cursive;
+  color: rgb(205, 170, 124);
+}
+.menu-course {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.meat {
+  display: flex;
+  gap: 230px;
+  margin-top: 30px;
+}
+.meatimage {
+  width: 40px;
+  height: 40px;
+}
+.main-course {
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  font-family: "Satisfy", cursive;
+}
+.carddisplay {
+  display: flex;
+  gap: 120px;
+}
+.titletext {
+  color: rgb(196, 198, 201);
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.pricetext {
+  margin-top: 20px;
+  font-weight: 400;
+  color: rgb(196, 198, 201);
+}
+.titletext:hover {
+  color: rgb(205, 170, 124);
+}
+.categorytext {
+  color: rgb(99, 99, 99);
+  margin-top: 10px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+.categorytext:hover {
+  color: rgb(205, 170, 124);
+}
+.drinks {
+  margin-top: 50px;
+  display: flex;
+  gap: 310px;
+}
+.drink {
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  font-family: "Satisfy", cursive;
+}
+.drinkprice{
+    color: rgb(99, 99, 99);
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.appledrink{
+    color: rgb(99, 99, 99);
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 80px;
+}
+.soups{
+    display: flex;
+    gap: 230px;
+    margin-top: 30px;
+}
+.soupprice{
+    color: rgb(99, 99, 99);
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 130px;
+}
+.dessert{
+    margin-top: 50px;
+    display: flex;
+    gap: 310px;
+}
+.dessertprice{
+    color: rgb(99, 99, 99);
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 140px;
+}
+.dessertsprice{
+    color: rgb(99, 99, 99);
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 160px;
+}
+.dessertimage{
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+  .menu-course {
+    flex-direction: column; /* Mobilde menü içeriğini dikey sıralama */
+    align-items: center; /* Mobilde içeriği merkeze hizalama */
+  }
+
+  .meat, .drinks, .soups, .dessert {
+    margin-top: 20px; /* Mobilde boşlukları arttırdım */
+  }
+
+  .carddisplay {
+    gap: 5px; /* Mobilde kart içeriğindeki boşlukları azalttım */
+  }
+
+  .titletext {
+    font-size: 18px; /* Mobilde başlık font boyutunu küçülttüm */
+    margin-top: 5px; /* Mobilde boşlukları azalttım */
+  }
+
+  .pricetext, .drinkprice, .appledrink, .soupprice, .dessertprice, .dessertsprice {
+    font-size: 14px; /* Mobilde fiyat font boyutunu küçülttüm */
+    margin-top: 5px; /* Mobilde boşlukları azalttım */
+  }
+
+  .categorytext {
+    font-size: 12px; /* Mobilde kategori font boyutunu küçülttüm */
+    margin-top: 3px; /* Mobilde boşlukları azalttım */
+  }
+}
