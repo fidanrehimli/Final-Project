@@ -9,6 +9,7 @@
   text-align: center;
   margin: auto;
   justify-content: center;
+  margin-left: 100px;
 }
 .deleteuser {
   background-color: red;
@@ -39,4 +40,5 @@
    border-radius: 20px;
    margin: 20px 0px 20px 0px;
 }
+
 

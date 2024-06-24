@@ -52,7 +52,8 @@ const ProductAdd = () => {
        price:priceValue
       })
     GetData();
-    }
+   
+  }
 //! artirma
     const handleIncrease = (id) => {
       const updatedProducts = products.map((prod) => {

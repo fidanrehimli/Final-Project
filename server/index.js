@@ -4,6 +4,7 @@ const cors=require('cors')
 const authRouter=require('./routes/authRoute')
 const productRouter=require('./routes/productRoute')
 const adminRouter = require('./routes/adminRoute')
+const reservationRouter = require("./routes/reservationRoute")
 
 
 const app = express()
@@ -13,6 +14,7 @@ app.use(express.json())
 app.use('/users',authRouter)
 app.use('', productRouter);
 app.use('', adminRouter);
+app.use('/',reservationRouter)
 
 
 mongoose.connect('mongodb+srv://bd7l6ka24:fidan123@cluster0.vknliuk.mongodb.net/')

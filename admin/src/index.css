@@ -14,19 +14,17 @@ body{
 }
 .container{
   display: flex;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky; 
 }
 .sidebar{
   background: #000;
   color: white;
- 
 }
 .top_section{
   display: flex;
   align-items: center;
   cursor: pointer;
   padding: 30px 40px;
-
 }
 .bars{
   font-size: 25px;
@@ -37,7 +35,7 @@ body{
   display: flex;
   color: white;
   padding: 20px 40px;
-  gap: 15PX;
+  gap: 15px;
   transition: all 0.5s;
 }
 .link:hover{

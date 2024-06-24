@@ -1,6 +1,5 @@
 import {Route, Routes} from 'react-router-dom'
 import User from './pages/user/User'
-// import Order from './pages/order/Order'
 import Sidebar from './layout/Sidebar'
 import ProductAdd from './pages/product/ProductAdd'
 

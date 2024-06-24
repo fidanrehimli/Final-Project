@@ -15,11 +15,6 @@ const Sidebar = ({ children }) => {
       name: "Products",
       icon: <FaShoppingCart />,
     },
-    // {
-    //   path: "/order",
-    //   name: "Orders",
-    //   icon: <FaUserCircle />,
-    // },
   ];
 
 
