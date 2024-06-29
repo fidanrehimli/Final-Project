@@ -2,6 +2,7 @@ import React from "react";
 import { FaUserCircle } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import { TbReservedLine } from "react-icons/tb";
 
 const Sidebar = ({ children }) => {
   const menuItem = [
@@ -15,6 +16,11 @@ const Sidebar = ({ children }) => {
       name: "Products",
       icon: <FaShoppingCart />,
     },
+    {
+      path:"/reservation",
+      name: "Reservation",
+      icon:<TbReservedLine />
+    }
   ];
 
 
@@ -34,6 +40,7 @@ const Sidebar = ({ children }) => {
             <div className="icon">{item.icon}</div>
             <div className="link-text">{item.name}</div>
           </NavLink>
+         
         ))}
       </div>
       <main>{children}</main>

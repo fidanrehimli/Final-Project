@@ -8,6 +8,7 @@ import About from './pages/About'
 import Shop from './pages/Shop'
 import MENU from './pages/Menu'
 import Blog from './pages/Blog'
+import Footer from './layout/Footer'
 
 
 function App() {
@@ -25,8 +26,9 @@ function App() {
         <Route path='/menu' element={<MENU />} />
         <Route path='/shop' element={<Shop />} />
         <Route path='/blog' element={<Blog />} />
-      </Routes>
-    </>
+      </Routes>  
+      <Footer/>
+    </> 
   )
 }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Playwrite+US+Trad:wght@100..400&display=swap');
 .active {
   color: rgb(154, 128, 93);
 }
@@ -7,7 +9,10 @@
   outline: none;
   border: none;
 }
-
+.royatetext{
+  font-family: "Satisfy", cursive;
+  color: rgb(205, 170, 124);
+}
 .Top {
   background-color: white;
   /* position: -webkit-sticky; */
@@ -48,9 +53,10 @@ header {
     display: none;
   }
   a {
-    color: rgb(237, 237, 237);
+    color: black;
   text-decoration: none;
-
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
   }
 }
 ul {

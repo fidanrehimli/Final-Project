@@ -49,7 +49,7 @@ const Header = () => {
           <FaBars />
         </button>
         <div>
-          <h1>LOGO</h1>
+          <h1 className="royatetext">ROYATE</h1>
         </div>
         <div>
           <nav ref={navRef}>

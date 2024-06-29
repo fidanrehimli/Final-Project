@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.page-info {
+    background-image: url("https://freebw.com/templates/royate/images/page-info-bg-3.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    height: 550px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page-info .section-header{
+    padding: 0 15px;
+    position: absolute;
+    left: 40%;
+    margin-bottom: 0;
+}
+.section-header h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 50px;
+    font-family: raleway-bold;
+    font-weight: 700;
+}
+.section-header p{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Satisfy", cursive;
+    color: rgb(205, 170, 124);
+}
+

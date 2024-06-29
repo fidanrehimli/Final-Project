@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.section2{
+    margin-top: 20px;
+}
+.coursetext{
+    text-align: center;
+}
+.coursetext h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 40px;
+    font-family: raleway-bold;
+    font-weight: 700;
+}
+.courseparam{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Satisfy", cursive;
+    color: rgb(205, 170, 124);
+}
+.menu-card{
+    display: flex;
+    justify-content: space-around;
+}
+.display{
+    display: flex;
+    gap: 30px;
+}
