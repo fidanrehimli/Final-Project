@@ -1,0 +1,12 @@
+.dessert-header{
+    background-image: url("https://freebw.com/templates/royate/images/menu-block-bg-3.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
