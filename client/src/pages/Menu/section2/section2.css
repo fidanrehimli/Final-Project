@@ -1,30 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-.section2{
+.section2 {
+  margin-top: 50px;
+}
+.coursetext {
+  text-align: center;
+}
+.coursetext h1 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 40px;
+  font-family: raleway-bold;
+  font-weight: 700;
+}
+.courseparam {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Satisfy", cursive;
+  color: rgb(205, 170, 124);
+}
+.menu-card {
+  display: flex;
+  justify-content: space-around;
+}
+.display {
+    margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+.card-image {
+  cursor: pointer;
+}
+.menu-title {
+    margin-top: 20px;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  color: #333333;
+}
+.menu-point{
     margin-top: 20px;
 }
-.coursetext{
-    text-align: center;
+.menu-title:hover{
+    color: rgb(213,174,125);
 }
-.coursetext h1{
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    color: black;
-    font-size: 40px;
-    font-family: raleway-bold;
-    font-weight: 700;
+.menu-param{
+    margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  color: #999999;
 }
-.courseparam{
-    font-size: 25px;
+.menu-param:hover{
+    color: rgb(213,174,125);
+}
+.menu-price{
+    margin-top: 20px;
     font-weight: 400;
-    font-family: "Satisfy", cursive;
-    color: rgb(205, 170, 124);
-}
-.menu-card{
-    display: flex;
-    justify-content: space-around;
-}
-.display{
-    display: flex;
-    gap: 30px;
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    color: #333333;
 }
