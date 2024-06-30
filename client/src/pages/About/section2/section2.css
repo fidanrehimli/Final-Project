@@ -1,0 +1,18 @@
+.section2-header{
+    background-image: url("https://freebw.com/templates/royate/images/about-us-bg.png");
+    /* background-attachment: fixed; */
+    background-position: top;
+    height: 700px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    background-size: contain;
+    /* opacity: 0.5; */
+}
+.section2-card{
+    display: flex;
+}

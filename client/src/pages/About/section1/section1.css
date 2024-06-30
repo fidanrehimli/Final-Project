@@ -1,0 +1,12 @@
+.about-header {
+  background-image: url("https://freebw.com/templates/royate/images/page-info-bg.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  height: 550px;
+  position: relative;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

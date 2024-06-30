@@ -5,6 +5,8 @@ import { ProductContext } from "../contexts/productContext";
 import axios from 'axios';
 
 import "./pagesStyle.css"
+import Section1 from "./About/section1/Section1";
+import Section2 from "./About/section2/Section2";
 const About = () => {
   const navigate = useNavigate()
   const {product,setProduct} = useContext(ProductContext)
@@ -23,23 +25,8 @@ const About = () => {
         <title>About</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
-      {/* <div className="Products">
-        {product.map((elem) => (
-          <div className="product" key={elem._id}>
-            <img src={elem.image} className="card-img" alt="" />
-            <div className="content">
-              <div className="row">
-                <div className="detail">
-                  <h2 className="card-title">{elem.title}</h2>
-                  <p className="card-info">{elem.catagory}</p>
-                </div>
-                <p className="card-price">${elem.price}</p>
-                <button onClick={()=>navigate(elem._id)}>book now</button>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div> */}
+      <Section1/>
+      <Section2/>
     </div>
   )
 };
