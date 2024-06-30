@@ -112,9 +112,9 @@ const Header = () => {
         </div>
         <div>
           <div className="SearchIconBox ">
-            <button onClick={showSearch}>
+            {/* <button onClick={showSearch}>
               <IoMdSearch className="search"  />
-            </button>
+            </button> */}
             <IoRestaurantSharp className="eaticon" />
           </div>
         </div>
